@@ -6,7 +6,6 @@ calculateBtn = document.querySelector('#calculateBtn')
 answer = document.querySelector('#answer')
 
 function add(event) {
-	// alert("heyoh");
 	total = Number(num_one.value) + Number(num_two.value)
 	answer.textContent = total
 }
